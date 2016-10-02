@@ -4,8 +4,8 @@ System.config({
   transpiler: "typescript",
   paths: {
     "*": "src/*",
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "github:*": "aurelia-test/master/jspm_packages/github/*",
+    "npm:*": "aurelia-test/master/jspm_packages/npm/*"
   },
 
   map: {
