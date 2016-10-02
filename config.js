@@ -3,7 +3,7 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   paths: {
-    "src/*": "ppn2/aurelia-test/master/src/*",
+    "*": "ppn2/aurelia-test/master/src/*",
     "github:*": "ppn2/aurelia-test/master/jspm_packages/github/*",
     "npm:*": "ppn2/aurelia-test/master/jspm_packages/npm/*"
   },
