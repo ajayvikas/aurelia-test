@@ -3,9 +3,9 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   paths: {
-    "*": "ppn2/aurelia-test/master/src/*",
-    "github:*": "ppn2/aurelia-test/master/jspm_packages/github/*",
-    "npm:*": "ppn2/aurelia-test/master/jspm_packages/npm/*"
+    "*": "src/*",
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*"
   },
 
   map: {
@@ -14,7 +14,7 @@ System.config({
     "typescript": "npm:typescript@1.8.10",
     "github:jspm/nodelibs-os@0.1.0": {
       "os-browserify": "npm:os-browserify@0.1.2"
-    },
+    },  
     "npm:aurelia-binding@1.0.6": {
       "aurelia-logging": "npm:aurelia-logging@1.0.0",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0",
