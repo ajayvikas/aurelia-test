@@ -1,0 +1,12 @@
+﻿<template>
+    <require from="./grid-column-renderer"></require>
+    <div>
+        <label repeat.for="column of internalColumns">
+            ${column.title}
+        </label>
+    </div>
+    <div repeat.for="item of items">
+        <label as-element="column-renderer" repeat.for="column of internalColumns" $$item.bind="item" column.bind="column"></label>
+    </div>
+    <slot></slot>
+</template>

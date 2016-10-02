@@ -1,0 +1,13 @@
+<template>
+    <require from="./grid"></require>
+    <require from="./grid-column"></require>
+    <h2>Grid Test</h2>
+    <div style="margin-bottom: 20px;">
+        <button type="button" click.delegate="toggleNameColumn()">Toggle Name</button>
+    </div>
+    <grid items.bind="customers" grid.ref="customerGrid">
+        <grid-column field="id" title="ID"></grid-column>
+        <grid-column field="name" title="NAME"></grid-column>
+        <grid-column field="state" title="STATE"></grid-column>
+    </grid>
+</template>
